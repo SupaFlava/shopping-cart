@@ -1,0 +1,167 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <!--Bootstrap-->
+    <link
+      rel="stylesheet"
+      href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css"
+      integrity="sha384-ggOyR0iXCbMQv3Xipma34MD+dH/1fQ784/j6cY/iJTQUOhcWr7x9JvoRxT2MZw1T"
+      crossorigin="anonymous"
+    />
+    <!--Font awsome-->
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.2/css/all.min.css"
+    />
+    <link rel="stylesheet" href="style.css" />
+    <title>Document</title>
+  </head>
+  <body>
+    <section class="mt-5">
+      <div class="container">
+        <div class="table-respensive">
+          <table class="table">
+            <thead class="thead-dark">
+              <tr>
+                <th scope="col" class="text-white">Product</th>
+                <th scope="col" class="text-white">Price</th>
+                <th scope="col" class="text-white">Quanitity</th>
+                <th scope="col" class="text-white">Total</th>
+                <th scope="col" class="text-white">Wishlist</th>
+                <th scope="col" class="text-white">Delete</th>
+              </tr>
+            </thead>
+            <tbody>
+              <tr>
+                <td>
+                  <div class="main">
+                    <div class="d-flex">
+                      <img src="/img/miles1.jpg" alt="kind of blue" />
+                    </div>
+                    <div class="des">
+                      <p>Miles Davis – Kind Of Blue Lp</p>
+                    </div>
+                  </div>
+                </td>
+                <td>
+                  <h6 class="unit-price">$15.00</h6>
+                </td>
+                <td>
+                  <div class="counter">
+                    <button class="btn-minus">
+                      <i class="fas fa-minus"></i>
+                    </button>
+                    <input class="input-number" type="text" value="0" min="0" />
+                    <button class="btn-add"><i class="fas fa-plus"></i></button>
+                  </div>
+                </td>
+                <td>
+                  <h6 class="item-sum">$ 0</h6>
+                </td>
+                <td>
+                  <i class="far fa-heart fa-lg"></i>
+                </td>
+                <td>
+                  <button class="delete">
+                    <i class="fas fa-trash-alt"></i>
+                  </button>
+                </td>
+              </tr>
+              <!--item2-->
+              <tr>
+                <td>
+                  <div class="main">
+                    <div class="d-flex">
+                      <img src="/img/giant_steps.jpg" alt="kind of blue" />
+                    </div>
+                    <div class="des">
+                      <p>John Coltrane – Giant Steps</p>
+                    </div>
+                  </div>
+                </td>
+                <td>
+                  <h6 class="unit-price">$19.00</h6>
+                </td>
+                <td>
+                  <div class="counter">
+                    <button class="btn-minus">
+                      <i class="fas fa-minus"></i>
+                    </button>
+                    <input class="input-number" type="text" value="0" min="0" />
+                    <button class="btn-add"><i class="fas fa-plus"></i></button>
+                  </div>
+                </td>
+                <td>
+                  <h6 class="item-sum">$ 0</h6>
+                </td>
+                <td>
+                  <i class="far fa-heart fa-lg"></i>
+                </td>
+                <td>
+                  <button class="delete">
+                    <i class="fas fa-trash-alt"></i>
+                  </button>
+                </td>
+              </tr>
+              <!--item3-->
+              <tr>
+                <td>
+                  <div class="main">
+                    <div class="d-flex">
+                      <img
+                        src="/img/My_Favorite_Things.jpg"
+                        alt="My Favorite Things"
+                      />
+                    </div>
+                    <div class="des">
+                      <p>John Coltrane ‎– My Favorite Things</p>
+                    </div>
+                  </div>
+                </td>
+                <td>
+                  <h6 class="unit-price">$20.00</h6>
+                </td>
+                <td>
+                  <div class="counter">
+                    <button class="btn-minus">
+                      <i class="fas fa-minus"></i>
+                    </button>
+                    <input class="input-number" type="text" value="0" min="0" />
+                    <button class="btn-add"><i class="fas fa-plus"></i></button>
+                  </div>
+                </td>
+                <td>
+                  <h6 class="item-sum">$ 0</h6>
+                </td>
+                <td>
+                  <i class="far fa-heart fa-lg"></i>
+                </td>
+                <td>
+                  <button class="delete">
+                    <i class="fas fa-trash-alt"></i>
+                  </button>
+                </td>
+              </tr>
+            </tbody>
+          </table>
+        </div>
+      </div>
+    </section>
+    <!--checkout-->
+    <div class="col-lg-4 offset-lg-4">
+      <div class="checkout">
+        <ul>
+          <li class="cart-total">
+            Total
+            <span>:$0</span>
+          </li>
+        </ul>
+        <button class="proceed-btn">Checkout</button>
+      </div>
+    </div>
+    <script src="main.js"></script>
+  </body>
+</html>
